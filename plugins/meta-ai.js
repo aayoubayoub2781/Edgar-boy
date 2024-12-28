@@ -1,6 +1,6 @@
 const nomor = [{
-  name: "Microsoft Copilot",
-  jid: "18772241042@s.whatsapp.net"
+  name: "Meta Ai",
+  jid: "13135550002@s.whatsapp.net"
 }];
 let handler = async (_0x2206d0, {
   conn: _0x40a85c,
@@ -12,7 +12,7 @@ let handler = async (_0x2206d0, {
   } else if (_0x2206d0.quoted && _0x2206d0.quoted.text) {
     _0x3b309f = _0x2206d0.quoted.text;
   } else {
-    throw "هذا الامر خاص بالذكاء الاصطناعي الخاص ب كوبيلوت مثال: \n *.copilot* do you know some thing about The Monalisa?.";
+    throw "هذا الامر خاص بالذكاء الاصطناعي الخاص ب ميتا مثال: \n *.copilot* do you know some thing about The Monalisa?.";
   }
   let _0xcb550a = _0x2206d0.quoted ? _0x2206d0.quoted : _0x2206d0;
   let _0x5ec4c2 = (_0xcb550a.msg || _0xcb550a).mimetype || "";
@@ -56,8 +56,8 @@ let handler = async (_0x2206d0, {
   let _0x3178da = await _0xc8e846();
   await _0x2206d0.reply(_0x3178da);
 };
-handler.help = ["copilot"];
+handler.help = ["meta-ai"];
 handler.tags = ["ai"];
-handler.command = ["copilot"];
+handler.command = ["meta-ai"];
 handler.private = false;
 export default handler;

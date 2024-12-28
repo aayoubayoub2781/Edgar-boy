@@ -16,6 +16,7 @@ const defaultMenu = {
 *_あ Uptime : [ %muptime ]_*
 *_あ Date : [ %date ]_*
 *_あ Database : [ %totalreg ]_*
+*_By Ayoub-Dev_*
 
 %readmore
 `.trimStart(),

@@ -9,9 +9,9 @@ let handler = async (_0x479cbb, {
 }) => {
   const _0x670e7e = _0x24576d.join` `;
   if (!_0x670e7e) {
-    return _0x248bb9.reply(_0x479cbb.chat, "معك Gemini الذكاء الاصطناعي من شركة غوغل يمكنك استخدامي عبر كتابة مثلا هكذا :\n\n*." + _0xd152ca + "* من هو جيميناي > Jeen-MD", null);
+    return _0x248bb9.reply(_0x479cbb.chat, "معك Gemini الذكاء الاصطناعي من شركة غوغل يمكنك استخدامي عبر كتابة مثلا هكذا :\n\n*." + _0xd152ca + "* من هو جيميناي > edgar-MD", null);
   }
-  const _0x539885 = new _0x4f3072("AIzaSyAUsz6CEsTfOw3CgecJGtbzkBNnKBXy2tI");
+  const _0x539885 = new _0x4f3072("AIzaSyBpmQC2krvN4fS6xnwN59eJhwc_CmBf5vI");
   const _0x2581b7 = _0x539885.createChat();
   let _0x57dbb6 = await _0x2581b7.ask(_0x670e7e);
   _0x248bb9.sendPresenceUpdate("composing", _0x479cbb.chat);

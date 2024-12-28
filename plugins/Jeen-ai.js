@@ -20,7 +20,7 @@ const handler = async (m, { text, usedPrefix, command, conn }) => {
 
     // Making the API request using the new endpoint
     let response = await fetch(
-      `https://bk9.fun/ai/BK9?BK9=${encodeURIComponent(prompt)}&q=${encodeURIComponent(text)}&model=gpt-3.5-turbo`
+      `https://bk9.fun/ai/BK92?BK9=${encodeURIComponent(prompt)}&q=${encodeURIComponent(text)}&model="gpt-4o`
     );
 
     if (!response.ok) {
