@@ -6,12 +6,12 @@ import _0x1b5e8d from "performance-now";
 let handler = _0x32f7bd => _0x32f7bd;
 handler.all = async function (_0x439f91) {
   let _0x34efe9 = await conn.getName(_0x439f91.sender);
-  let _0x1a118f = "https://i.ibb.co/wMdhHsw/12cefc4e9ec1bba6fb1a315c30ebf938.jpg";
-  let _0x19667c = "https://i.ibb.co/wMdhHsw/12cefc4e9ec1bba6fb1a315c30ebf938.jpg";
+  let _0x1a118f = "https://qu.ax/Hvjxc.jpg";
+  let _0x19667c = "https://qu.ax/Hvjxc.jpg";
   try {
     _0x1a118f = await this.profilePictureUrl(_0x439f91.sender, "image");
   } catch (_0x14f81d) {} finally {
-    global.emror = "https://i.ibb.co/wMdhHsw/12cefc4e9ec1bba6fb1a315c30ebf938.jpg";
+    global.emror = "https://qu.ax/Hvjxc.jpg";
     global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf"]);
     global.fsizedoc = pickRandom([2000, 3000, 2023000, 2024000]);
     global.axios = (await import("axios")).default;
@@ -45,7 +45,7 @@ handler.all = async function (_0x439f91) {
     const _0x21b246 = {
       newsletterJid: "120363372688988248@newsletter",
       serverMessageId: 103,
-      newsletterName: "💫 ping : " + _0xfd7158 + "   © [ اضغط هنا ]    "
+      newsletterName: "Edgar-MD"
     };
     global.adReply = {
       contextInfo: {
@@ -57,8 +57,8 @@ handler.all = async function (_0x439f91) {
           title: info.namebot,
           body: ucapan(),
           previewType: "VIDEO",
-          thumbnailUrl: "https://i.ibb.co/wMdhHsw/12cefc4e9ec1bba6fb1a315c30ebf938.jpg",
-          sourceUrl: "https://instagram.com/ayoub.eeea"
+          thumbnailUrl: "https://qu.ax/Hvjxc.jpg",
+          sourceUrl: "https://qu.ax/Hvjxc.jpg"
         }
       }
     };
@@ -92,7 +92,7 @@ function date() {
 }
 function ucapan() {
   const _0x2aff10 = _0x4d9827.tz("Africa/casablanca").format("HH");
-  let _0x49c512 = "إضغط هنا لمتابعة صاحب البوت";
+  let _0x49c512 = "إضغط هنا لمتابعة";
   if (_0x2aff10 >= 4) {
     _0x49c512 = "إضغط هنا لمتابعة صاحب البوت";
   }
